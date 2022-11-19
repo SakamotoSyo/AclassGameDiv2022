@@ -140,8 +140,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460617746226832
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,8 +287,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460617942945753
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,8 +434,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460618072858570
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,8 +581,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460618078351659
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,8 +728,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460618195110621
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,8 +875,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460618217492146
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,8 +1022,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460618361467023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,8 +1169,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460618418094111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,8 +1316,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460618778668137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,8 +1510,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460618942577840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,8 +1657,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460619013369219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,8 +1804,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460619041203511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,8 +1951,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460619311034366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,8 +2098,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460619312090372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,8 +2245,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2733460619678232283
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,5 +2392,10 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1

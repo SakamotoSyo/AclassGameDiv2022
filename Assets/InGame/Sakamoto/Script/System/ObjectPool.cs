@@ -140,5 +140,10 @@ public enum PoolObjectType
     Hamon,
     /// <summary>¶‚©‚ç‰E‚É—¬‚ê‚é’e–‹</summary>
     SLefteRight,
-    bullet3,
+    /// <summary>‰E‚©‚ç¶‚É—¬‚ê‚é’e–‹</summary>
+    SRightELeft,
+    /// <summary>ã‚©‚ç‰º‚É—¬‚ê‚é’e–‹</summary>
+    SUpEDown,
+    /// <summary>‰º‚©‚çã‚É—¬‚ê‚é’e–‹</summary>
+    SDownEUp
 }
