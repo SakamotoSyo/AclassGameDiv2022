@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LoadSceneKeys : MonoBehaviour
 {
     int i;
+    public SceneManagerController sceneManager;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +19,8 @@ public class LoadSceneKeys : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) && i < 1)
         {
-            i = i + 1;
-            SceneManager.LoadScene("KScene");
+            //i = i + 1;
+            sceneManager.Kari();
         }
     }
 }
