@@ -7,18 +7,16 @@ using UnityEngine.UI;
 public class GameStartTextManager : MonoBehaviour
 {
     [Tooltip("WAVE数")] private int _wave = 0;
-    [Tooltip("ステージのクリア条件")] private string _purpose = "じかんまで　いきのこれ！";
+    [SerializeField, Header("ステージのクリア条件")] private string[] _purpose = new string[5];
     [SerializeField, Header("WAVEを表示するテキスト")] private Text _waveText = default;
     [SerializeField, Header("クリア条件を表示するテキスト")] private Text _purposeText = default;
 
     void Start()
     {
-        //wave数とクリア条件をどこかから受け取る
-        //_wave = 
-        //_purpose = 
-
+        //wave数を受け取って、wave数と対応した目標を表示
+        _wave = GameManager.GetStageNum;
         _waveText.text = $"WAVE{_wave.ToString()}";
-        _purposeText.text = $"{_purpose}";
+        _purposeText.text = $"{_purpose[_wave - 1]}";
     }
 
 }
