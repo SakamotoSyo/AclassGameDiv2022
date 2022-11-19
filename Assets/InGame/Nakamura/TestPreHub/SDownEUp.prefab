@@ -97,7 +97,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -140,8 +140,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906153591450172
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +244,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -282,8 +287,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906153633293425
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +438,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -471,8 +481,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906153937036699
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,7 +585,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -613,8 +628,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906154166519068
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,7 +732,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -755,8 +775,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906154167592934
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,7 +879,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -897,8 +922,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906154327303875
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,7 +1026,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1039,8 +1069,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906154616182408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,7 +1173,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1181,8 +1216,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906154734348501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,7 +1320,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1323,8 +1363,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906154812029235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,7 +1467,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1465,8 +1510,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906154875705298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,7 +1614,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1607,8 +1657,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906154947151809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,7 +1761,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1749,8 +1804,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906155090950295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1848,7 +1908,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1891,8 +1951,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906155219437226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,7 +2055,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2033,8 +2098,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906155266458309
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,7 +2202,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2175,8 +2245,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &2598906155554392071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,7 +2349,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2317,5 +2392,10 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 10
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1

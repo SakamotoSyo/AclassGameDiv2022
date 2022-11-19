@@ -38,6 +38,14 @@ public class BulletControlle : MonoBehaviour
 
         _rb2d.velocity = dir.normalized * _bulletSpeed;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out IDamage _damage))
+        {
+            _damage.AddDamage();
+        }
+    }
 }
 
 [System.Serializable]
