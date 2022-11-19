@@ -21,3 +21,15 @@ MonoBehaviour:
     _poolType: 1
     _prefabObj: {fileID: 8781393578365740224, guid: 4cf031563cade7b43972fe2091f8e623, type: 3}
     _objectMaxCount: 3
+  - _name: SRightELeft
+    _poolType: 2
+    _prefabObj: {fileID: 2733460618778668137, guid: 83c52cd9d98ba0b419c74005c71b3224, type: 3}
+    _objectMaxCount: 3
+  - _name: SUpEDown
+    _poolType: 3
+    _prefabObj: {fileID: 867482887225451210, guid: 0b3f660128827864eadaf39142e7adad, type: 3}
+    _objectMaxCount: 3
+  - _name: SDownEUp
+    _poolType: 4
+    _prefabObj: {fileID: 2598906153633293425, guid: ea3aa32e0fc961e48ab5fd916d2078b3, type: 3}
+    _objectMaxCount: 3

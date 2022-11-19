@@ -140,8 +140,13 @@ MonoBehaviour:
     _up: 0
     _down: 1
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 5
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &6198512554082034994
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,8 +287,13 @@ MonoBehaviour:
     _up: 0
     _down: 1
     _right: 1
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 5
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &6198512554329775924
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,8 +434,13 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 1
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 5
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &6198512554502938793
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,8 +620,13 @@ MonoBehaviour:
     _up: 0
     _down: 1
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 5
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &6198512554934771917
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,8 +767,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 5
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &6198512554971095694
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,8 +914,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 1
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 5
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &6198512555437904235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,8 +1061,13 @@ MonoBehaviour:
     _up: 1
     _down: 0
     _right: 0
-    _lleft: 0
+    _left: 0
   _bulletSpeed: 5
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
 --- !u!1 &6198512555452655685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,5 +1208,10 @@ MonoBehaviour:
     _up: 0
     _down: 0
     _right: 0
-    _lleft: 1
+    _left: 1
   _bulletSpeed: 5
+  _vecPower:
+    _topVec: 1
+    _bottomVec: 1
+    _rightVec: 1
+    _leftVec: 1
