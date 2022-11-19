@@ -61,7 +61,7 @@ public class SceneManagerController
     /// </summary>
     public static void StageStart()
     {
-        SceneManager.LoadScene("StageStartScene");
+        SceneManager.LoadScene("StageStart");
     }
 
     /// <summary>
