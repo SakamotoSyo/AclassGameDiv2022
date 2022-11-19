@@ -1393,12 +1393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e39c8d3df9f41684799fa8bf2c4012f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _purpose:
-  - "\u3058\u304B\u3093\u307E\u3067\u3000\u3044\u304D\u306E\u3053\u308C\uFF01"
-  - 
-  - 
-  - 
-  - 
   _waveText: {fileID: 1654203290}
   _purposeText: {fileID: 1523510805}
 --- !u!320 &1869904974
