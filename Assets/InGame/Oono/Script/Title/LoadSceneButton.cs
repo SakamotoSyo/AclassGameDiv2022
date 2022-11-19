@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class LoadSceneButton : MonoBehaviour
 {
+
+    public SceneManagerController sceneManager;
+
     // Start is called before the first frame update
     public void Ls()
     {
-        SceneManager.LoadScene("KScene");
+        sceneManager.Kari();
     }
 }
