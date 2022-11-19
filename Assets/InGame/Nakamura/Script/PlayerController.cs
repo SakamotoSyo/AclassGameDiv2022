@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour,IDamage
 {
     /// <summary>InputƒVƒXƒeƒ€</summary>
     private PlayerInput _playerInput;
@@ -26,5 +26,10 @@ public class PlayerController : MonoBehaviour
     void PlyerMove()
     {
         _rd2d.velocity = _playerInput.MoveInput.normalized * _playerSpeed;
+    }
+
+    public void AddDamage()
+    {
+        GameManager.StageEnd(false);
     }
 }
