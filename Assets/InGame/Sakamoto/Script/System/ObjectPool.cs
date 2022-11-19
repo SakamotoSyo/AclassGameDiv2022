@@ -136,7 +136,9 @@ public struct Pool
 
 public enum PoolObjectType
 {
-    bullet1,
-    bullet2,
+    /// <summary>‰~Œ`‚ÉL‚ª‚é’e–‹</summary>
+    Hamon,
+    /// <summary>¶‚©‚ç‰E‚É—¬‚ê‚é’e–‹</summary>
+    SLefteRight,
     bullet3,
 }
