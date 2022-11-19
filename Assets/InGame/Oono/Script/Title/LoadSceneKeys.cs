@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class LoadSceneKeys : MonoBehaviour
 {
@@ -19,7 +18,7 @@ public class LoadSceneKeys : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) && i < 1)
         {
-            //i = i + 1;
+            i = i + 1;
             sceneManager.Kari();
         }
     }
