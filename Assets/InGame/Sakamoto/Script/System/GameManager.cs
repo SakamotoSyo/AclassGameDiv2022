@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager
 {
     /// <summary>現在のステージ数</summary>
     public static int GetStageNum => stageNum;
@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
     /// ステージが切り替わる時にこの関数が呼ばれる
     /// 分岐させるSceneTimeLineが終わったら呼び出してほしい
     /// </summary>
-    public void NextScene()
+    public static void NextScene()
     {
         //LoadScript.LoadScene(StageNum)
     }

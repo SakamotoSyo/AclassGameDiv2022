@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class LoadSceneButton : MonoBehaviour
 {
-
-    public SceneManagerController sceneManager;
+    [SceneName]
+    [SerializeField] string _sceneName;
 
     // Start is called before the first frame update
     public void Ls()
     {
-        sceneManager.Kari();
+        SceneManagerController.LoadScene(_sceneName);
     }
 }

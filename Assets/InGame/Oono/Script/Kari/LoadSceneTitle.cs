@@ -19,7 +19,7 @@ public class LoadSceneTitle : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && i < 1)
         {
             i = i + 1;
-            sceneManager.Title();
+            SceneManagerController.Title();
         }
     }
 }
