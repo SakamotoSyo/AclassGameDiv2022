@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     /// <summary>現在のステージ数</summary>
     public static int GetStageNum => stageNum;
+    /// <summary>現在のライフ</summary>
+    public static int GetLife => life;
 
     [Tooltip("残機数")]
     private static int life = 2;
@@ -18,7 +20,7 @@ public class GameManager : MonoBehaviour
     /// stageが終了したときに呼ぶ
     /// </summary>
     /// <param name="clear"></param>
-    public void StageEnd(bool clear)
+    public static void StageEnd(bool clear)
     {
         isClear = clear;
         if (clear)
