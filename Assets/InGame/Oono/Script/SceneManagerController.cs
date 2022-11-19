@@ -3,29 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManagerController : MonoBehaviour
+public class SceneManagerController
 {
 
-    public static SceneManagerController instance;
+    //public static SceneManagerController instance;
 
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(this.gameObject);
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-    }
+    //private void Awake()
+    //{
+    //    if (instance == null)
+    //    {
+    //        instance = this;
+    //        DontDestroyOnLoad(this.gameObject);
+    //    }
+    //    else
+    //    {
+    //        Destroy(this.gameObject);
+    //    }
+    //}
 
     /// <summary>
     /// stage の呼び出し
     /// Stage にはint型でStageの番号を入力
     /// </summary>
-    public void StageLoadScene()
+    public static void StageLoadScene()
     {
         int Stage = GameManager.GetStageNum;
 
@@ -35,7 +35,7 @@ public class SceneManagerController : MonoBehaviour
     /// <summary>
     /// GameClear の呼び出し
     /// </summary>
-    public void StasgeClear()
+    public static void StasgeClear()
     {
         SceneManager.LoadScene("StageClearScene");
     }
@@ -43,7 +43,7 @@ public class SceneManagerController : MonoBehaviour
     /// <summary>
     /// GameOver の呼び出し
     /// </summary>
-    public void GameOver()
+    public static void GameOver()
     {
         SceneManager.LoadScene("GameOverScene");
     }
@@ -51,7 +51,7 @@ public class SceneManagerController : MonoBehaviour
     /// <summary>
     /// Taitle の呼び出し
     /// </summary>
-    public void Title()
+    public static void Title()
     {
         SceneManager.LoadScene("TitleScene");
     }
@@ -59,7 +59,7 @@ public class SceneManagerController : MonoBehaviour
     /// <summary>
     /// stage分岐前のScene の呼び出し
     /// </summary>
-    public void StageStart()
+    public static void StageStart()
     {
         SceneManager.LoadScene("StageStartScene");
     }
@@ -67,8 +67,17 @@ public class SceneManagerController : MonoBehaviour
     /// <summary>
     /// Kari の呼び出し
     /// </summary>
-    public void Kari()
+    public static void Kari()
     {
         SceneManager.LoadScene("KScene");
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="scene"></param>
+    public static void LoadScene(string scene) 
+    {
+        SceneManager.LoadScene(scene);
     }
 }
