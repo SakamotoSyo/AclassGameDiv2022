@@ -145,5 +145,13 @@ public enum PoolObjectType
     /// <summary>上から下に流れる弾幕</summary>
     SUpEDown,
     /// <summary>下から上に流れる弾幕</summary>
-    SDownEUp
+    SDownEUp,
+    /// <summary>左下から右上に流れる弾幕</summary>
+    BottomLeft,
+    /// <summary>右下から左下に流れる弾幕</summary>
+    BottomRight,
+    /// <summary>左上から右下に流れる弾幕</summary>
+    TopLeft,
+    /// <summary>右上に左下に流れる弾幕</summary>
+    TopRight
 }
