@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/InGame/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/InGame/Oono/Seane/TitleScene.unity
+    guid: e71051514da086e42953ee0cf6b01f7c
+  - enabled: 1
+    path: Assets/InGame/Tamura/Scenes/StageStart.unity
+    guid: c3cc40b3d7d1e3d4cb425bbdafc910b5
+  - enabled: 1
+    path: Assets/InGame/Scenes/Stage1.unity
+    guid: e822e235b85d1a64aa77b4af70c78d6b
   m_configObjects: {}

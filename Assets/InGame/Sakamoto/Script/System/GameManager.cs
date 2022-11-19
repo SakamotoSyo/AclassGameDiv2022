@@ -27,6 +27,7 @@ public class GameManager
         {
             stageNum++;
             //Claer‚µ‚½ê‡‚ÌScene
+            SceneManagerController.StageStart();
         }
         else
         {
