@@ -12,7 +12,7 @@ public class BulletControlle : MonoBehaviour
     [Tooltip("‚Ç‚Ì•ûŒü‚É”ò‚Î‚·‚©")]
     bool[] _dirBool;
     [Tooltip("—Í‚ğ‚©‚¯‚é•ûŒü")]
-    Vector2[] _dirPower = new Vector2[] {new Vector2(0, -1), new Vector2(0, 1), new Vector2(1, 0), new Vector2(-1, 0) };
+    Vector2[] _dirPower = new Vector2[] {new Vector2(-1, 0), new Vector2(1, 0), new Vector2(0, 1), new Vector2(0, -1) };
     [Tooltip("—Í‚ğ‚©‚¯‚é•ûŒü‚ğ•Û‘¶‚µ‚Ä‚¨‚­‚½‚ß‚Ì•Ï”")]
     Vector2 dir;
     
