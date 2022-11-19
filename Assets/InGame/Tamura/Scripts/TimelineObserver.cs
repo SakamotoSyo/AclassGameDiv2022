@@ -7,10 +7,9 @@ using UnityEngine.Events;
 /// <summary>Timelineが終わったら次のシーンに行く</summary>
 public class TimelineObserver : MonoBehaviour
 {
-    private PlayableDirector _playableDirector = default;
-    public bool IsDone() { return _playableDirector.time >= _playableDirector.duration; }
-    [SerializeField, Header("Timelineが終わったら呼び出されるイベント")] UnityEvent _endTimeline = default;
-    private bool _isDone = false;
+    [Tooltip("Timelineのコンポーネント")] private PlayableDirector _playableDirector = default;
+    [Tooltip("Timelineが終了しているかどうか")] public bool IsDone() { return _playableDirector.time >= _playableDirector.duration; }
+    [Tooltip("一回だけ呼び出すように一応")] private bool _isDone = false;
 
     void Start()
     {
@@ -20,10 +19,11 @@ public class TimelineObserver : MonoBehaviour
     void Update()
     {
         
+        //Timelineを再生し終えたら、ゲームシーンに移動する
         if(IsDone() && !_isDone)
         {
             _isDone = true;
-            _endTimeline.Invoke();
+            GameManager.NextScene();
         }
 
     }
