@@ -5,11 +5,14 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     /// <summary>現在のステージ数</summary>
-    public static int GetStageNum => StageNum;
+    public static int GetStageNum => stageNum;
 
     [Tooltip("残機数")]
-    private static int Life = 2;
-    private static int StageNum = 1;
+    private static int life = 2;
+    [Tooltip("現在のステージ")]
+    private static int stageNum = 1;
+    [Tooltip("前回のステージをクリアしたかどうか")]
+    private static bool isClear = false;
 
     /// <summary>
     /// stageが終了したときに呼ぶ
@@ -17,24 +20,31 @@ public class GameManager : MonoBehaviour
     /// <param name="clear"></param>
     public void StageEnd(bool clear)
     {
+        isClear = clear;
         if (clear)
         {
-            StageNum++;
+            stageNum++;
+            //Claerした場合のScene
         }
         else
         {
-            Life--;
+            life--;
+            if (life < 0)
+            {
+                //GameOverのSceneを呼び出す
+            }
+            else 
+            {
+                //失敗した場合のScene
+            }
         }
-
-        //分岐stageに入る前のSceneを呼び出す
-        //LoadScript.LoadScene(SceneToBeBranched)
     }
 
     /// <summary>
     /// ステージが切り替わる時にこの関数が呼ばれる
     /// 分岐させるSceneTimeLineが終わったら呼び出してほしい
     /// </summary>
-    private void NextScene()
+    public void NextScene()
     {
         //LoadScript.LoadScene(StageNum)
     }
