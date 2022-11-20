@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngine.Events;
 
 /// <summary>Timelineが終わったら次のシーンに行く</summary>
 public class TimelineObserver : MonoBehaviour
