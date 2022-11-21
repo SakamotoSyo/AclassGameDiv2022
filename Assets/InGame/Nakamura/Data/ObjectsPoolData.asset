@@ -33,3 +33,23 @@ MonoBehaviour:
     _poolType: 4
     _prefabObj: {fileID: 2598906153633293425, guid: ea3aa32e0fc961e48ab5fd916d2078b3, type: 3}
     _objectMaxCount: 3
+  - _name: BottomLeft
+    _poolType: 5
+    _prefabObj: {fileID: 30832440924523928, guid: bbb02a52dba23574983b1249a2ffb18d, type: 3}
+    _objectMaxCount: 3
+  - _name: BottomRight
+    _poolType: 6
+    _prefabObj: {fileID: 2329734601122673153, guid: a9703d16b95775646abcee0a28c94ca8, type: 3}
+    _objectMaxCount: 3
+  - _name: TopLeft
+    _poolType: 7
+    _prefabObj: {fileID: 6152173556495871565, guid: a54aca979985852419d1dd1fea1d92bf, type: 3}
+    _objectMaxCount: 3
+  - _name: TopRight
+    _poolType: 8
+    _prefabObj: {fileID: 8326443907114690492, guid: 4eda959546380b64094fea6a7096c9b0, type: 3}
+    _objectMaxCount: 3
+  - _name: Rasen
+    _poolType: 9
+    _prefabObj: {fileID: 7788567698810684513, guid: 9c7c29dca27d9404998d6b3ea1a73e4f, type: 3}
+    _objectMaxCount: 3

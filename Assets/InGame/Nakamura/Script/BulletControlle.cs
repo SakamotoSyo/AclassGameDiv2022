@@ -15,12 +15,14 @@ public class BulletControlle : MonoBehaviour
     Vector2[] _dirPower;
     [Tooltip("—Í‚ğ‚©‚¯‚é•ûŒü‚ğ•Û‘¶‚µ‚Ä‚¨‚­‚½‚ß‚Ì•Ï”")]
     Vector2 dir;
+    FalseCount _falseCount;
     
     void Awake()
     {
         _dirPower = new Vector2[] { new Vector2(-1 * _vecPower.GetLeftVec, 0), new Vector2(1 * _vecPower.GetRightVec, 0),
             new Vector2(0, 1* _vecPower.GetTopVec), new Vector2(0, -1* _vecPower.GetBottomVec) };
         _rb2d = GetComponent<Rigidbody2D>();
+        _falseCount = GetComponentInParent<FalseCount>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,11 @@ public class BulletControlle : MonoBehaviour
         }
 
         _rb2d.velocity = dir.normalized * _bulletSpeed;
+    }
+
+    private void OnDisable()
+    {
+        _falseCount.ExitCounter += 1;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
