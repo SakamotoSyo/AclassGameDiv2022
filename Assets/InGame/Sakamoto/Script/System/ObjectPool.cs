@@ -153,5 +153,7 @@ public enum PoolObjectType
     /// <summary>¶ã‚©‚ç‰E‰º‚É—¬‚ê‚é’e–‹</summary>
     TopLeft,
     /// <summary>‰Eã‚É¶‰º‚É—¬‚ê‚é’e–‹</summary>
-    TopRight
+    TopRight,
+    /// <summary>—†ùó‚É”ò‚Ô</summary>
+    Rasen
 }
