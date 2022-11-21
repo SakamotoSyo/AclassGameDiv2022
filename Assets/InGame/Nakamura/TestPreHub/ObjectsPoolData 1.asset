@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a66c38767c6f564bb799dfc066bce7a, type: 3}
+  m_Name: ObjectsPoolData 1
+  m_EditorClassIdentifier: 
+  _data:
+  - _name: Hamon
+    _poolType: 0
+    _prefabObj: {fileID: 6198512554502938793, guid: 6a8b9fdcd0fcb814dbb2873ca83c85cd, type: 3}
+    _objectMaxCount: 3
+  - _name: SLefteRight
+    _poolType: 1
+    _prefabObj: {fileID: 8781393578365740224, guid: 4cf031563cade7b43972fe2091f8e623, type: 3}
+    _objectMaxCount: 3
+  - _name: SRightELeft
+    _poolType: 2
+    _prefabObj: {fileID: 2733460618778668137, guid: 83c52cd9d98ba0b419c74005c71b3224, type: 3}
+    _objectMaxCount: 3
+  - _name: SUpEDown
+    _poolType: 3
+    _prefabObj: {fileID: 867482887225451210, guid: 0b3f660128827864eadaf39142e7adad, type: 3}
+    _objectMaxCount: 3
+  - _name: SDownEUp
+    _poolType: 4
+    _prefabObj: {fileID: 2598906153633293425, guid: ea3aa32e0fc961e48ab5fd916d2078b3, type: 3}
+    _objectMaxCount: 3
+  - _name: BottomLeft
+    _poolType: 5
+    _prefabObj: {fileID: 30832440924523928, guid: bbb02a52dba23574983b1249a2ffb18d, type: 3}
+    _objectMaxCount: 3
+  - _name: BottomRight
+    _poolType: 6
+    _prefabObj: {fileID: 2329734601122673153, guid: a9703d16b95775646abcee0a28c94ca8, type: 3}
+    _objectMaxCount: 3
+  - _name: TopLeft
+    _poolType: 7
+    _prefabObj: {fileID: 6152173556495871565, guid: a54aca979985852419d1dd1fea1d92bf, type: 3}
+    _objectMaxCount: 3
+  - _name: TopRight
+    _poolType: 8
+    _prefabObj: {fileID: 8326443907114690492, guid: 4eda959546380b64094fea6a7096c9b0, type: 3}
+    _objectMaxCount: 3
+  - _name: Rasen
+    _poolType: 9
+    _prefabObj: {fileID: 412149108012295922, guid: d8a8fbbfcf170894f9b6d962887ae5fe, type: 3}
+    _objectMaxCount: 3

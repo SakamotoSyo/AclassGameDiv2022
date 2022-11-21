@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spon : MonoBehaviour
+public class Spawn : MonoBehaviour
 {
     SponData[] _sponDataAll => _sponData;
     [SerializeField] SponData[] _sponData;
