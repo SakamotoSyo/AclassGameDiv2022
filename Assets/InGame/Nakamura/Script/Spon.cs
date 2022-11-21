@@ -11,9 +11,9 @@ public class Spon : MonoBehaviour
     {
         StartCoroutine(bulletGenelater());
     }
-    private void Update()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-
+        collision.gameObject.SetActive(false);
     }
 
     IEnumerator bulletGenelater()
