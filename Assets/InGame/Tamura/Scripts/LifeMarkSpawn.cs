@@ -18,5 +18,6 @@ public class LifeMarkSpawn : MonoBehaviour
             Instantiate(_life, _lifeSpawner[i].transform);
         }
 
+        //Ž¸‚Á‚½ƒ‰ƒCƒt‚à•\Ž¦‚³‚¹‚½‚¢
     }
 }
