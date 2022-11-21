@@ -251,8 +251,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fcb6e10da80c1a47be81a271724a456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _lifeCount: 2
+  _lifeCount: 1
   _life: {fileID: 8004968242808342131, guid: 7d28de7c89cf4b94e85df63e0a74b47e, type: 3}
+  _loseLife: {fileID: 6461661575292357156, guid: 50f2816f6321d2644ab1b2feac55195d, type: 3}
   _lifeSpawner:
   - {fileID: 1142018766}
   - {fileID: 184668702}

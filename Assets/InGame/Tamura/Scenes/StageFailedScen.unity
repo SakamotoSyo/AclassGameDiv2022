@@ -816,12 +816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e39c8d3df9f41684799fa8bf2c4012f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _purpose:
-  - "\u3058\u304B\u3093\u307E\u3067\u3000\u3044\u304D\u306E\u3053\u308C\uFF01"
-  - 
-  - 
-  - 
-  - 
   _waveText: {fileID: 1756841894}
   _purposeText: {fileID: 88707017}
 --- !u!320 &1106549563
@@ -1022,6 +1016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lifeCount: 2
   _life: {fileID: 8004968242808342131, guid: 7d28de7c89cf4b94e85df63e0a74b47e, type: 3}
+  _loseLife: {fileID: 6461661575292357156, guid: 50f2816f6321d2644ab1b2feac55195d, type: 3}
   _lifeSpawner:
   - {fileID: 794329261}
   - {fileID: 133372454}
