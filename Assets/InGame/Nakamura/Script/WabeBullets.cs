@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class RasenBullet : MonoBehaviour
+public class WabeBullets : MonoBehaviour
 {
     [SerializeField, Header("’e–‹‚Ì–§“x(th)")] private float _dis = 30f;
     float _th = 30.0f;
@@ -11,23 +10,23 @@ public class RasenBullet : MonoBehaviour
     [SerializeField, Header("’e–‹‚Ì‘¬“x")] private int _speed = 10;
     float _rad;
     [SerializeField] float cooltime = 2;
-    [SerializeField] List<GameObject> _bullets = new();
-
+    [SerializeField] List<GameObject> _bulletsList = new();
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(RasenPop());
+        StartCoroutine(Wabe());
     }
 
-    IEnumerator RasenPop()
+    IEnumerator Wabe()
     {
-        for (int i = 0; i < _bullets.Count; i++)
+        for (int i = 0; i < _bulletsList.Count; i++)
         {
             _rad = _th * Mathf.Deg2Rad;
             var pos = new Vector3(Mathf.Cos(_rad), Mathf.Sin(_rad), 0);
-            _bullets[i].SetActive(true);
-            _bullets[i].transform.position = gameObject.transform.position + pos;
-            _bullets[i].GetComponent<Rigidbody2D>().velocity = pos * _speed;
+            _bulletsList[i].SetActive(true);
+            _bulletsList[i].transform.position = gameObject.transform.position + pos;
+            _bulletsList[i].GetComponent<Rigidbody2D>().velocity =
+                _bulletsList[i].transform.forward.normalized * _speed;
             _th += _dis;
             yield return new WaitForSeconds(cooltime);
         }
