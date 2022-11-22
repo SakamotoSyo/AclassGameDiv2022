@@ -13,7 +13,14 @@ public class Spawn : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        collision.gameObject.SetActive(false);
+        if (collision.gameObject.TryGetComponent<Shot>(out Shot shot))
+        {
+            shot.BulletsCount();
+        }
+        else if (collision.gameObject.TryGetComponent<BulletControlle>(out BulletControlle bullet))
+        {
+            bullet.BulletsCount();
+        }
     }
 
     IEnumerator bulletGenelater()

@@ -16,17 +16,22 @@ public class BulletControlle : MonoBehaviour
     [Tooltip("óÕÇÇ©ÇØÇÈï˚å¸Çï€ë∂ÇµÇƒÇ®Ç≠ÇΩÇﬂÇÃïœêî")]
     Vector2 dir;
     FalseCount _falseCount;
-    
-    void Awake()
+
+    private void OnEnable()
     {
+        Set();
+    }
+    void Set()
+    {
+        //gameObject.transform.position = gameObject.transform.parent.position;
         _dirPower = new Vector2[] { new Vector2(-1 * _vecPower.GetLeftVec, 0), new Vector2(1 * _vecPower.GetRightVec, 0),
             new Vector2(0, 1* _vecPower.GetTopVec), new Vector2(0, -1* _vecPower.GetBottomVec) };
         _rb2d = GetComponent<Rigidbody2D>();
         _falseCount = GetComponentInParent<FalseCount>();
+        Shot();
     }
 
-    // Update is called once per frame
-    void Start()
+    void Shot()
     {
         _dirBool = new bool[] { _bulletDir.GetLeft, _bulletDir.GetRight, _bulletDir.GetUp, _bulletDir.GetDown };
         dir = Vector2.zero;
@@ -41,7 +46,7 @@ public class BulletControlle : MonoBehaviour
         _rb2d.velocity = dir.normalized * _bulletSpeed;
     }
 
-    private void OnDisable()
+    public void BulletsCount()
     {
         _falseCount.ExitCounter += 1;
     }
