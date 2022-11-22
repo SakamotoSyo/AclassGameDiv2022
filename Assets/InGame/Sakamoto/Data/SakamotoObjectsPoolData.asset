@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a66c38767c6f564bb799dfc066bce7a, type: 3}
+  m_Name: SakamotoObjectsPoolData
+  m_EditorClassIdentifier: 
+  _data:
+  - _name: Hamon
+    _poolType: 0
+    _prefabObj: {fileID: 6198512554502938793, guid: 2f2b8c9f8d400d644ae76e133d2a5367, type: 3}
+    _objectMaxCount: 6
+  - _name: DeleyShot
+    _poolType: 11
+    _prefabObj: {fileID: 9150866705686898154, guid: 1403b37d1aced734e8fc71963e8be53a, type: 3}
+    _objectMaxCount: 20
+  - _name: SingleShot
+    _poolType: 10
+    _prefabObj: {fileID: 8577746073627447856, guid: 9344a5aea27f078438d65b37c7a8d06a, type: 3}
+    _objectMaxCount: 20

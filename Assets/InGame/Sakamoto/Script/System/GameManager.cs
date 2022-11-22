@@ -49,7 +49,7 @@ public class GameManager
     /// </summary>
     public static void NextScene()
     {
-        //LoadScript.LoadScene(StageNum)
+       SceneManagerController.StageLoadScene();
     }
 
 }

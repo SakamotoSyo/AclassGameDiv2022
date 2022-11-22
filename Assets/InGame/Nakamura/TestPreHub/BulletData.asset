@@ -10,14 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a66c38767c6f564bb799dfc066bce7a, type: 3}
-  m_Name: ObjectsPoolData 1
+  m_Name: BulletData
   m_EditorClassIdentifier: 
   _data:
-  - _name: TopRight
-    _poolType: 8
-    _prefabObj: {fileID: 7788567698810684513, guid: 026535696371d3245a46db55f15d8588, type: 3}
-    _objectMaxCount: 3
   - _name: Rasen
     _poolType: 9
-    _prefabObj: {fileID: 412149108012295922, guid: d8a8fbbfcf170894f9b6d962887ae5fe, type: 3}
+    _prefabObj: {fileID: 7788567698810684513, guid: 026535696371d3245a46db55f15d8588, type: 3}
     _objectMaxCount: 3

@@ -61,8 +61,8 @@ public class ObjectPool : SingletonBehaviour<ObjectPool>
             //Object‚Í–ğ–Ú‚ğI‚¦‚½‚çSetActive‚ğfalse‚É‚·‚é‚±‚Æ‚Å‚Â‚©‚¢‚Ü‚í‚·‚±‚Æ‚ª‚Å‚«‚é
             if (pool.Object.activeSelf == false && pool.Type == objectType)
             {
-                pool.Object.SetActive(true);
                 pool.Object.transform.position = position;
+                pool.Object.SetActive(true);
                 return pool.Object;
             }
 
@@ -155,5 +155,9 @@ public enum PoolObjectType
     /// <summary>‰Eã‚É¶‰º‚É—¬‚ê‚é’e–‹</summary>
     TopRight,
     /// <summary>—†ùó‚É”ò‚Ô</summary>
-    Rasen
+    Rasen,
+    /// <summary>’P”­</summary>
+    SingleShot,
+    /// <summary>’x‚ê‚Ä”ò‚ñ‚Å‚­‚é’e</summary>
+    DelayShot
 }

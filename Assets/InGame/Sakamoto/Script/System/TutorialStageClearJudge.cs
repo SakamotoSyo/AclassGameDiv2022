@@ -22,7 +22,6 @@ public class TutorialStageClearJudge : MonoBehaviour
         _clearTimeCount.Value -= Time.deltaTime;
         if (0 >= _clearTimeCount.Value) 
         {
-            Debug.Log("‚¤‚í");
             GameManager.StageEnd(true);
             _clearTimeCount.Value = 0;
         }
