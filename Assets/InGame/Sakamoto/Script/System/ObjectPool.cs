@@ -159,5 +159,11 @@ public enum PoolObjectType
     /// <summary>単発</summary>
     SingleShot,
     /// <summary>遅れて飛んでくる弾</summary>
-    DelayShot
+    DelayShot,
+    /// <summary>単発ぐるぐる円状に右回り</summary>
+    RightRevolveCircle,
+    /// <summary>単発ぐるぐる円状に左回り</summary>
+    LeftRevolveCircle,
+    /// <summary>ぐるぐる円状に左回り</summary>
+    RevolveCircle,
 }
