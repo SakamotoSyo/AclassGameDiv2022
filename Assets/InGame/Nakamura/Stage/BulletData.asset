@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a66c38767c6f564bb799dfc066bce7a, type: 3}
+  m_Name: BulletData
+  m_EditorClassIdentifier: 
+  _data:
+  - _name: Rasen
+    _poolType: 9
+    _prefabObj: {fileID: 7788567698810684513, guid: 026535696371d3245a46db55f15d8588, type: 3}
+    _objectMaxCount: 10
+  - _name: Center
+    _poolType: 0
+    _prefabObj: {fileID: 6198512554502938793, guid: acdf6022df79da64cabdfb9a30c12eb4, type: 3}
+    _objectMaxCount: 10
+  - _name: HRasen
+    _poolType: 11
+    _prefabObj: {fileID: 7788567698810684513, guid: 667487c9f02468a4fa8aae83b14164ff, type: 3}
+    _objectMaxCount: 10
+  - _name: DownUp
+    _poolType: 4
+    _prefabObj: {fileID: 2598906153633293425, guid: 8bed72d29b5105c4e92ab12ef4e396f1, type: 3}
+    _objectMaxCount: 3
+  - _name: SRight
+    _poolType: 2
+    _prefabObj: {fileID: 4342560228842151213, guid: 8751ebb37fdc9ce4ab47b001e777bcf0, type: 3}
+    _objectMaxCount: 3

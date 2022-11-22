@@ -10,7 +10,14 @@ public class Shot : MonoBehaviour
     {
         _falseCount = GetComponentInParent<FalseCount>();
     }
-    private void OnDisable()
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out IDamage _damage))
+        {
+            _damage.AddDamage();
+        }
+    }
+    public void BulletsCount()
     {
         _falseCount.ExitCounter += 1;
     }
