@@ -21,7 +21,7 @@ public class BoneScript : MonoBehaviour
 
     void Update()
     {
-        _speedX += 0.001f;
+        _speedX += 0.003f;
         var a = Mathf.Sin(_speedX);
         var b = Mathf.Tan(_speedX);
 
