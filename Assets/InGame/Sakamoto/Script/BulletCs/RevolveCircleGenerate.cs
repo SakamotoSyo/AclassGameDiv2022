@@ -35,6 +35,7 @@ public class RevolveCircleGenerate : MonoBehaviour
     {
         while (true)
         {
+            AudioManager.Instance.PlaySound(SoundPlayType.Shot);
             for (int rad = 0; rad < 360; rad += 40)
             {
                 var Obj = ObjectPool.Instance.UseObject(transform.position, PoolObjectType.RightRevolveCircle);
