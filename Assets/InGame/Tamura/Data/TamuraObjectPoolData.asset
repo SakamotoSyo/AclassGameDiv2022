@@ -22,10 +22,18 @@ MonoBehaviour:
     _prefabObj: {fileID: 7788567698810684513, guid: 4c73d4a7e3e14464784aef80f1bea380, type: 3}
     _objectMaxCount: 3
   - _name: Flowey
-    _poolType: 1
+    _poolType: 4
     _prefabObj: {fileID: 4558836611367131392, guid: c46eceadf4c7a4b408ceac2a90e79987, type: 3}
     _objectMaxCount: 3
   - _name: Asgore
-    _poolType: 2
+    _poolType: 3
     _prefabObj: {fileID: 1921894746828590778, guid: 3ab3805ed1131ad4aa69acc030aecb78, type: 3}
+    _objectMaxCount: 3
+  - _name: DoubleHelixRight
+    _poolType: 2
+    _prefabObj: {fileID: 5607351142148730626, guid: f1fbe8629a8cfd4439c45cba7fedb60e, type: 3}
+    _objectMaxCount: 3
+  - _name: DoubleHelixLeft
+    _poolType: 1
+    _prefabObj: {fileID: 7713744774291512533, guid: 1dc71fa88f7763f43a4632e673e80a56, type: 3}
     _objectMaxCount: 3

@@ -2,22 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TamuraAsgoreController : MonoBehaviour
+public class TamuraDoubleHelixController : MonoBehaviour
 {
-    [Tooltip("子オブジェクトの数")] private int _children = 6*2*4*2;
+    [Tooltip("子オブジェクトの数")] private int _children = 24 * 2;
     [Tooltip("外へ出た子オブジェクトの数")] private int _outChildren = 0;
-    [SerializeField, Header("ビックリマークのオブジェクト")] private GameObject _exclamationMark = default;
-
-    private void OnEnable()
-    {
-        //ビックリマークを出す
-        _exclamationMark.SetActive(true);
-    }
-
-    private void OnDisable()
-    {
-        _outChildren = 0;
-    }
 
     public void ChildrenCheck()
     {

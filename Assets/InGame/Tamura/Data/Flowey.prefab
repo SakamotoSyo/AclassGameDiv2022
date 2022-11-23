@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ce8d31d4405aae4d938aae51d418768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: 4
 --- !u!1001 &4558836611789965011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112,6 +112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TamuraBullet
       objectReference: {fileID: 0}
+    - target: {fileID: 6633696064351539821, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
+      propertyPath: m_TagString
+      value: FloweyBuller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
 --- !u!4 &7154991459414693040 stripped
@@ -136,6 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a87a0f021b3b147b465e514ec727a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flowey: {fileID: 4558836611367131394}
 --- !u!1001 &4558836611961057867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -191,6 +196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TamuraBullet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6633696064351539821, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
+      propertyPath: m_TagString
+      value: FloweyBuller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
 --- !u!1 &7154991459516506150 stripped
@@ -210,6 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a87a0f021b3b147b465e514ec727a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flowey: {fileID: 4558836611367131394}
 --- !u!4 &7154991459516506152 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6633696064351539811, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
@@ -270,6 +280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TamuraBullet (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6633696064351539821, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
+      propertyPath: m_TagString
+      value: FloweyBuller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
 --- !u!1 &7154991458912098855 stripped
@@ -289,6 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a87a0f021b3b147b465e514ec727a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flowey: {fileID: 4558836611367131394}
 --- !u!4 &7154991458912098857 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6633696064351539811, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
@@ -349,6 +364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TamuraBullet (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6633696064351539821, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
+      propertyPath: m_TagString
+      value: FloweyBuller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
 --- !u!4 &7154991458980999649 stripped
@@ -373,6 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a87a0f021b3b147b465e514ec727a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flowey: {fileID: 4558836611367131394}
 --- !u!1001 &4558836612697905897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -428,6 +448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TamuraBullet (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6633696064351539821, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
+      propertyPath: m_TagString
+      value: FloweyBuller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
 --- !u!1 &7154991458778597508 stripped
@@ -447,6 +471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a87a0f021b3b147b465e514ec727a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flowey: {fileID: 4558836611367131394}
 --- !u!4 &7154991458778597514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6633696064351539811, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
@@ -507,6 +532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TamuraBullet (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6633696064351539821, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
+      propertyPath: m_TagString
+      value: FloweyBuller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
 --- !u!4 &7154991458677950720 stripped
@@ -531,6 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a87a0f021b3b147b465e514ec727a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flowey: {fileID: 4558836611367131394}
 --- !u!1001 &4558836613030178984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -586,6 +616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TamuraBullet (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6633696064351539821, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
+      propertyPath: m_TagString
+      value: FloweyBuller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
 --- !u!1 &7154991458437685957 stripped
@@ -605,6 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a87a0f021b3b147b465e514ec727a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flowey: {fileID: 4558836611367131394}
 --- !u!4 &7154991458437685963 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6633696064351539811, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
@@ -665,6 +700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TamuraBullet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6633696064351539821, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
+      propertyPath: m_TagString
+      value: FloweyBuller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}
 --- !u!1 &7154991458030946951 stripped
@@ -684,6 +723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a87a0f021b3b147b465e514ec727a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flowey: {fileID: 4558836611367131394}
 --- !u!4 &7154991458030946953 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6633696064351539811, guid: 1a20b903556011d4cabc9ecc75e8d82d, type: 3}

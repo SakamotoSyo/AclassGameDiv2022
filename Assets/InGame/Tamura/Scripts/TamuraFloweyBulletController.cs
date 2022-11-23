@@ -3,6 +3,19 @@ using UnityEngine;
 /// <summary>Floweyの弾の挙動</summary>
 public class TamuraFloweyBulletController : MonoBehaviour
 {
+    [SerializeField, Header("親オブジェクト(Flowey)")] private TamuraFloweyController _flowey;
+    [Tooltip("もともとの位置")] private Vector2 _originPos;
+
+    private void Start()
+    {
+        //_originPos = gameObject.GetComponent<Transform>().position;
+    }
+
+    private void OnDisable()
+    {
+        //元の位置に戻す
+        //transform.position = _originPos;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,7 +32,7 @@ public class TamuraFloweyBulletController : MonoBehaviour
         //外へ出たら親オブジェクトに伝える
         if(collision.gameObject.name == "Generator")
         {
-            GetComponentInParent<TamuraFloweyController>().ChildrenCheck();
+            _flowey.ChildrenCheck();
         }
 
     }

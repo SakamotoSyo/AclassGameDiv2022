@@ -11,10 +11,28 @@ public class TamuraBulletRotate : MonoBehaviour
 
     void Start()
     {
+        //Å‰‚Éƒ‰ƒ“ƒ_ƒ€‚É‚¿‚å‚Á‚Æ‰ñ‚Á‚Ä‚Ä‚à‚ç‚¤
         transform.rotation = Quaternion.Euler(0, 0, Random.Range(0, 360));
+        RotateBullet();
+    }
+
+    private void OnDisable()
+    {
+        //Á‚¦‚½‚ç~‚ß‚é
+        gameObject.transform.DOKill();
+    }
+
+    private void OnEnable()
+    {
+        //o‚½‚ç‰ñ‚é
+        RotateBullet();
+    }
+
+    public void RotateBullet()
+    {
         //‚¸‚Á‚Æ‰ñ‚Á‚Ä‚é
         gameObject.transform.DOLocalRotate(new Vector3(0, 0, (_isClockwise ? -1 : 1) * 360), _rotateTime)
-            .SetEase(Ease.Linear).SetRelative(true).SetLoops(-1, LoopType.Incremental);
+            .SetEase(Ease.Linear).SetRelative(true).SetLoops(-1, LoopType.Incremental).SetAutoKill();
     }
 
 }
