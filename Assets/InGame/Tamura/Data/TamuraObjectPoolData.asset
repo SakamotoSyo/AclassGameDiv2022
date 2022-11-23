@@ -13,11 +13,19 @@ MonoBehaviour:
   m_Name: TamuraObjectPoolData
   m_EditorClassIdentifier: 
   _data:
-  - _name: test
+  - _name: Hamon
     _poolType: 0
     _prefabObj: {fileID: 6198512554502938793, guid: d6321adf3017b9b41a5256eeedbb8019, type: 3}
     _objectMaxCount: 3
-  - _name: Down
-    _poolType: 3
-    _prefabObj: {fileID: 867482887225451210, guid: 877b2fe61de22c447b661b04c7b507e5, type: 3}
+  - _name: Rasen
+    _poolType: 9
+    _prefabObj: {fileID: 7788567698810684513, guid: 4c73d4a7e3e14464784aef80f1bea380, type: 3}
+    _objectMaxCount: 3
+  - _name: Flowey
+    _poolType: 1
+    _prefabObj: {fileID: 4558836611367131392, guid: c46eceadf4c7a4b408ceac2a90e79987, type: 3}
+    _objectMaxCount: 3
+  - _name: Asgore
+    _poolType: 2
+    _prefabObj: {fileID: 1921894746828590778, guid: 3ab3805ed1131ad4aa69acc030aecb78, type: 3}
     _objectMaxCount: 3
