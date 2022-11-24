@@ -65,8 +65,8 @@ public class AllMapController : MonoBehaviour
         _rd2d.velocity = _playerInput.MoveInput.normalized * 0;
     }
 
-    public void AddDamage()
-    {
-        GameManager.StageEnd(false);
-    }
+    //public void AddDamage()
+    //{
+    //    GameManager.StageEnd(false);
+    //}
 }

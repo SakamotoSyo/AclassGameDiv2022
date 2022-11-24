@@ -43,7 +43,7 @@ public class ReLoadScene : MonoBehaviour
             {
                 _time = 0;
 
-                SceneManagerController.LoadScene(_sceneName);
+                GameManager.StageEnd(false);
             }
         }
     }

@@ -29,6 +29,6 @@ public class LoadS : MonoBehaviour
 
     void ChangeScene()
     {
-        SceneManagerController.LoadScene(_sceneName);
+        GameManager.StageEnd(true);
     }
 }
