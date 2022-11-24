@@ -164,6 +164,14 @@ public enum PoolObjectType
     RightRevolveCircle,
     /// <summary>単発ぐるぐる円状に左回り</summary>
     LeftRevolveCircle,
-    /// <summary>ぐるぐる円状に左回り</summary>
+    /// <summary>左回り</summary>
     RevolveCircle,
+    /// <summary>一定の座標を中心に回る</summary>
+    RotatingBullts,
+    /// <summary>壁に反射する弾</summary>
+    ReflectionWall,
+    /// <summary>壁を反射するために分裂する弾</summary>
+    SplitShell,
+    /// <summary>大量に壁に反射する弾を出す</summary>
+    SplitShellGenerate
 }

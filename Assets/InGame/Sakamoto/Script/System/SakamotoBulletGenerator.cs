@@ -25,8 +25,6 @@ public class SakamotoBulletGenerator : MonoBehaviour
             for (int j = 0; j < _spawnDataAll[i].BulletCount; j++) 
             {
                 var obj = ObjectPool.Instance.UseObject(_spawnDataAll[i].GetSponPosition.position, _spawnDataAll[i].GetBulletType);
-               // saveRote += _spawnDataAll[i].RotateNum;
-               // obj.transform.rotation = Quaternion.Euler(0.0f, 0.0f, saveRote);
                 yield return new WaitForSeconds(_spawnDataAll[i].GetCoolTime);
             }
         }

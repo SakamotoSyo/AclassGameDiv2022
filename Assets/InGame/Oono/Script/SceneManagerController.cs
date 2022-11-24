@@ -30,6 +30,7 @@ public class SceneManagerController
         int Stage = GameManager.GetStageNum;
 
         SceneManager.LoadScene($"Stage{Stage}");
+        Debug.Log($"stage{Stage}‚ğƒ[ƒh‚µ‚Ü‚·");
     }
 
     /// <summary>
@@ -61,7 +62,7 @@ public class SceneManagerController
     /// </summary>
     public static void StageStart()
     {
-        SceneManager.LoadScene("StageStart");
+        SceneManager.LoadScene("StartScene");
     }
 
     /// <summary>

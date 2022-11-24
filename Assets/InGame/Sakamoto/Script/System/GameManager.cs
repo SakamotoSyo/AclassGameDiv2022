@@ -27,7 +27,7 @@ public class GameManager
         {
             stageNum++;
             //Claer‚µ‚½ê‡‚ÌScene
-            SceneManagerController.StageStart();
+            SceneManagerController.StasgeClear();
         }
         else
         {
@@ -35,10 +35,13 @@ public class GameManager
             if (life < 0)
             {
                 //GameOver‚ÌScene‚ğŒÄ‚Ño‚·
+                SceneManagerController.GameOver();
+
             }
             else 
             {
                 //¸”s‚µ‚½ê‡‚ÌScene
+                SceneManagerController.StageFailedScene();
             }
         }
     }
