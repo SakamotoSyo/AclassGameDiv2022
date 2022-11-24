@@ -16,6 +16,7 @@ public class TateScroll : MonoBehaviour
     {
         Move();
     }
+
     void Move()
     {
         transform.Translate(Vector3.right * scrollSpeed * Time.deltaTime);   //X²•ûŒü‚ÉƒXƒNƒ[ƒ‹
