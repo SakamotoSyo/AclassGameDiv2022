@@ -100,7 +100,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906153461527723
@@ -141,7 +141,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -247,7 +247,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906153591450175
@@ -288,7 +288,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -512,7 +512,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906153891638562
@@ -553,7 +553,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -659,7 +659,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906153937036703
@@ -700,7 +700,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -806,7 +806,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906154166519071
@@ -847,7 +847,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -953,7 +953,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906154167592953
@@ -994,7 +994,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -1100,7 +1100,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906154327303878
@@ -1141,7 +1141,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -1247,7 +1247,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906154616182411
@@ -1288,7 +1288,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -1394,7 +1394,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906154734348520
@@ -1435,7 +1435,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -1541,7 +1541,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906154812029239
@@ -1582,7 +1582,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -1688,7 +1688,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906154875705301
@@ -1729,7 +1729,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -1835,7 +1835,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906154947151812
@@ -1876,7 +1876,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -1982,7 +1982,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906155090950314
@@ -2023,7 +2023,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -2129,7 +2129,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906155219437229
@@ -2170,7 +2170,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -2276,7 +2276,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906155266458328
@@ -2317,7 +2317,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
@@ -2423,7 +2423,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.47}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &2598906155554392090
@@ -2464,7 +2464,7 @@ MonoBehaviour:
     _down: 0
     _right: 0
     _left: 0
-  _bulletSpeed: 4
+  _bulletSpeed: 10
   _vecPower:
     _topVec: 1
     _bottomVec: 1
