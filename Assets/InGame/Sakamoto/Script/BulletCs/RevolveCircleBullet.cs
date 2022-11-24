@@ -45,5 +45,10 @@ public class RevolveCircleBullet : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+
+        if (collision.TryGetComponent(out IDamage _damage))
+        {
+            _damage.AddDamage();
+        }
     }
 }

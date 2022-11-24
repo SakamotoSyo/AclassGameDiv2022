@@ -41,4 +41,12 @@ public class ReflectedBullet : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out IDamage _damage))
+        {
+            _damage.AddDamage();
+        }
+    }
+
 }
