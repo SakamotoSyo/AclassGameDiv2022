@@ -9,7 +9,7 @@ public class TamuraDoubleHelixBulletController : MonoBehaviour
     [SerializeField, Header("始まりの周期(度数法)")] private float _theta;
     [SerializeField, Header("上側かどうか")] private bool _isUpper = true;
     [SerializeField, Header("左に行くかどうか")] private bool _isGoingLeft = true;
-    [Tooltip("弾が動くはやさ")] private float _speed = 20;
+    [Tooltip("弾が動くはやさ")] private float _speed = 18;
     [SerializeField, Header("親オブジェクト")] private TamuraDoubleHelixController _doubleHelix;
 
     void Start()

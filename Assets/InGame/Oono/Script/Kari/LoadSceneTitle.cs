@@ -5,7 +5,8 @@ using UnityEngine;
 public class LoadSceneTitle : MonoBehaviour
 {
     int i;
-    public SceneManagerController sceneManager;
+    [SceneName]
+    [SerializeField] string _sceneName;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class LoadSceneTitle : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && i < 1)
         {
             i = i + 1;
-            SceneManagerController.Title();
+            SceneManagerController.LoadScene(_sceneName);
         }
     }
 }
