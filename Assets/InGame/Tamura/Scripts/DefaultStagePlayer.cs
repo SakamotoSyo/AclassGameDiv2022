@@ -22,8 +22,11 @@ public class DefaultStagePlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //当たったらステージ失敗
-        GameManager.StageEnd(false);
+        if (!collision.CompareTag("Respawn")) 
+        {
+            //当たったらステージ失敗
+            GameManager.StageEnd(false);
+        }
     }
 
 }

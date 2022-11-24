@@ -753,6 +753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Generator
       objectReference: {fileID: 0}
+    - target: {fileID: 4012286861917745701, guid: 33e9424833fc5a64680d8c6a43bc5b4e, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     - target: {fileID: 4012286861917745702, guid: 33e9424833fc5a64680d8c6a43bc5b4e, type: 3}
       propertyPath: _objectPoolData
       value: 

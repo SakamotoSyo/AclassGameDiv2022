@@ -20,8 +20,40 @@ MonoBehaviour:
   - _name: DeleyShot
     _poolType: 11
     _prefabObj: {fileID: 9150866705686898154, guid: 1403b37d1aced734e8fc71963e8be53a, type: 3}
-    _objectMaxCount: 20
+    _objectMaxCount: 5
   - _name: SingleShot
     _poolType: 10
     _prefabObj: {fileID: 8577746073627447856, guid: 9344a5aea27f078438d65b37c7a8d06a, type: 3}
+    _objectMaxCount: 5
+  - _name: RevolveCircleGenerator
+    _poolType: 14
+    _prefabObj: {fileID: 2048667626037313004, guid: ea1240a5a415e2046bba3febfeadb74e, type: 3}
+    _objectMaxCount: 1
+  - _name: LeftRevolveCircle
+    _poolType: 13
+    _prefabObj: {fileID: 8464336427158566190, guid: e0b45324b7e946f468071f84b17a72c0, type: 3}
+    _objectMaxCount: 30
+  - _name: RightRevolveCircle
+    _poolType: 12
+    _prefabObj: {fileID: 3541785163282511313, guid: 865d85f393b13604e8a85d5aa7e947eb, type: 3}
+    _objectMaxCount: 30
+  - _name: RotatingBullts
+    _poolType: 15
+    _prefabObj: {fileID: 6389363512779520115, guid: f02eb5fa28fad7b4581e9e80aafc6128, type: 3}
+    _objectMaxCount: 1
+  - _name: RotatingBullts
+    _poolType: 15
+    _prefabObj: {fileID: 6389363512779520115, guid: f02eb5fa28fad7b4581e9e80aafc6128, type: 3}
+    _objectMaxCount: 1
+  - _name: SplitShell
+    _poolType: 17
+    _prefabObj: {fileID: 4280981469581034784, guid: 95d07e3f7564a87478c4037166de5221, type: 3}
+    _objectMaxCount: 1
+  - _name: ReflectionWall
+    _poolType: 16
+    _prefabObj: {fileID: 1079323361168927533, guid: 6e8ed5985b5b9aa40b563949d5dc7d42, type: 3}
     _objectMaxCount: 20
+  - _name: SplitShellGenerate
+    _poolType: 18
+    _prefabObj: {fileID: 191576499944834832, guid: 22290c24ceb8d0c42abd486d2310e13c, type: 3}
+    _objectMaxCount: 1
