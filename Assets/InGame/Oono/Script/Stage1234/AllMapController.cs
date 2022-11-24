@@ -57,7 +57,7 @@ public class AllMapController : MonoBehaviour
 
     void PlyerMove()
     {
-        _rd2d.velocity = _playerInput.MoveInput.normalized * _playerSpeed;
+        _rd2d.velocity = _playerInput.MoveInput.normalized * _playerSpeed * -1;
     }
 
     void PlyerStop()
