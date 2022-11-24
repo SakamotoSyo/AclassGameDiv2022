@@ -27,14 +27,13 @@ public class AudioManager
     /// <summary>Prefab‚Ì¶¬‚ğ‚·‚é</summary>
     AudioManager()
     {
-        string data = "Assets/sakamoto/Data/AudioDataBase/AudioDataBase.asset";
-        if (data.Length == 0)
+        string data = "Assets/InGame/Sakamoto/Data/AudioDataBase/AudioDataBase.asset";
+       // var path = AssetDatabase.GUIDToAssetPath(data);
+        _params = AssetDatabase.LoadAssetAtPath<AudioDataBase>(data);
+        if (_params == null)
         {
             Debug.LogError("AudioDataBase‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ");
         }
-
-        //var path = AssetDatabase.GUIDToAssetPath(data[0]);
-        //_params = AssetDatabase.LoadAssetAtPath<AudioDataBase>(data);
         CreatePool();
     }
 
@@ -66,15 +65,16 @@ public class AudioManager
     /// <returns>‰¹‚ğ—¬‚·GameObject</returns>
     public GameObject PlaySound(SoundPlayType type)
     {
-        Debug.Log("Ä¶");
+       
         foreach (var pool in pool)
         {
             if (pool.Obj.activeSelf == false && pool.Type == type)
             {
+                pool.Obj.SetActive(true);
                 return pool.Obj;
             }
         }
-
+        Debug.Log("Ä¶");
         //‚à‚µ¶¬‚µ‚Ä‚ ‚é•ª‚Å‘«‚ç‚È‚­‚È‚Á‚½‚çAV‚µ‚­¶¬‚·‚é
         var newObj = Object.Instantiate(_params.paramsList.Find(x => x.Type == type).SoundPrefab);
         SavePool(newObj, type);
