@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ReLoadScene : MonoBehaviour
 {
+    [SerializeField]
+    private ParticleSystem particle;
+
     float _time;
 
     [SceneName]
@@ -12,6 +15,8 @@ public class ReLoadScene : MonoBehaviour
     GameObject player;
     PlayerHitPoint playerHitPoint;
 
+    int _i;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +24,8 @@ public class ReLoadScene : MonoBehaviour
 
         player = GameObject.Find("Player");
         playerHitPoint = player.GetComponent<PlayerHitPoint>();
+
+        _i = 0;
     }
 
     // Update is called once per frame
@@ -26,16 +33,27 @@ public class ReLoadScene : MonoBehaviour
     {
         
 
-        if (playerHitPoint._count >= 3)
+        if (playerHitPoint._gameOver)
         {
             _time = _time + Time.deltaTime;
 
-            if(_time >= 1.0f)
+            Effect();
+
+            if(_time >= 3.0f)
             {
                 _time = 0;
 
                 SceneManagerController.LoadScene(_sceneName);
             }
+        }
+    }
+
+    void Effect()
+    {
+        ParticleSystem newParticle = Instantiate(particle);
+        for (int i = 0; i < 1; i++)
+        {
+            newParticle.Play();
         }
     }
 }

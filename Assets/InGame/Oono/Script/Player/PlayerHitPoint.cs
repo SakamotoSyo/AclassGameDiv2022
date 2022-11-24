@@ -7,6 +7,9 @@ public class PlayerHitPoint : MonoBehaviour
     public int _count;
     public int _hcount;
     public int _fcount;
+    public bool _gameOver;
+    public bool _gameClear;
+
     GameObject _onoff;
     OnOffController _onOffController;
 
@@ -16,6 +19,8 @@ public class PlayerHitPoint : MonoBehaviour
         _count = 0;
         _hcount = 0;
         _fcount = 0;
+        _gameOver = false;
+        _gameClear = false;
 
         _onoff = GameObject.Find("OnOffController");
         _onOffController = _onoff.GetComponent<OnOffController>();
@@ -32,7 +37,13 @@ public class PlayerHitPoint : MonoBehaviour
 
         if(_count >= 3)
         {
-            Destroy(this.gameObject);
+            _gameOver = true;
+        }
+
+        if (_fcount >= 1)
+        {
+            Debug.Log("Clear");
+            _gameClear = true;
         }
     }
  }

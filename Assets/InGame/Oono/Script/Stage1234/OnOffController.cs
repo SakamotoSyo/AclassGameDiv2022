@@ -7,7 +7,14 @@ public class OnOffController : MonoBehaviour
     GameObject _light;
     LightsController lightsController;
 
+    GameObject backG;
+    BackGroundController backGroundController;
+
+    GameObject player;
+    PlayerHitPoint playerHitPoint;
+
     public int _p;
+    public bool _gameo;
     int _i;
 
     // Start is called before the first frame update
@@ -16,23 +23,39 @@ public class OnOffController : MonoBehaviour
         _light = GameObject.Find("Lights");
         lightsController = _light.GetComponent<LightsController>();
 
+        backG = GameObject.Find("BackGround");
+        backGroundController = backG.GetComponent<BackGroundController>();
+
+        player = GameObject.Find("Player");
+        playerHitPoint = player.GetComponent<PlayerHitPoint>();
+
         _p = 0;
+        _gameo = false;
         _i = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(_i == 0)
+        
+        if(playerHitPoint._gameOver)
         {
-            Invoke("Lon", 3.0f);
-            _i = _i + 1;
+            Lbg();
+            _gameo = true;
         }
-
-        if(_p >= 1)
+        else
         {
-            Loff();
-            _p = 0;
+            if (_i == 0)
+            {
+                Invoke("Lon", 3.0f);
+                _i = _i + 1;
+            }
+
+            if (_p >= 1)
+            {
+                Loff();
+                _p = 0;
+            }
         }
     }
 
@@ -45,5 +68,10 @@ public class OnOffController : MonoBehaviour
     {
         lightsController.Down();
         Invoke("Lon", 3.0f);
+    }
+
+    void Lbg()
+    {
+        backGroundController.Up();
     }
 }

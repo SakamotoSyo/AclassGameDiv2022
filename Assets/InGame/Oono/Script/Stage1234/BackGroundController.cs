@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightsController : MonoBehaviour
+public class BackGroundController : MonoBehaviour
 {
     Vector3 _upos;
     Vector3 _dpos;
@@ -17,7 +17,7 @@ public class LightsController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Up()
