@@ -17,6 +17,13 @@ public class TamuraAsgoreWarning : MonoBehaviour
         StartCoroutine(ColorChange());
     }
 
+    private void OnEnable()
+    {
+        StartCoroutine(ColorChange());
+    }
+
+    /// <summary>F‚ğŒğŒİ‚É•Ï‚¦‚é</summary>
+    /// <returns></returns>
     IEnumerator ColorChange()
     {
         var color = gameObject.GetComponent<SpriteRenderer>();
