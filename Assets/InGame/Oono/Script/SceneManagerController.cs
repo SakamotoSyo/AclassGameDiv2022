@@ -33,7 +33,7 @@ public class SceneManagerController
     }
 
     /// <summary>
-    /// GameClear の呼び出し
+    /// ステージをクリア の呼び出し
     /// </summary>
     public static void StasgeClear()
     {
@@ -57,7 +57,7 @@ public class SceneManagerController
     }
 
     /// <summary>
-    /// stage分岐前のScene の呼び出し
+    /// stage 分岐前のScene の呼び出し
     /// </summary>
     public static void StageStart()
     {
@@ -65,11 +65,19 @@ public class SceneManagerController
     }
 
     /// <summary>
-    /// Kari の呼び出し
+    /// ステージを失敗 の呼び出し
     /// </summary>
-    public static void Kari()
+    public static void StageFailedScene()
     {
-        SceneManager.LoadScene("KScene");
+        SceneManager.LoadScene("StageFailedScene");
+    }
+
+    /// <summary>
+    /// 全ステージのクリア の呼び出し
+    /// </summary>
+    public static void AllStageClearScene()
+    {
+        SceneManager.LoadScene("AllStageClearScene");
     }
 
     /// <summary>
