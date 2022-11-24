@@ -29,4 +29,12 @@ public class BoneScript : MonoBehaviour
 
         transform.position = _position +new Vector3(a , b * -1, 0);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out IDamage _damage))
+        {
+            _damage.AddDamage();
+        }
+    }
 }

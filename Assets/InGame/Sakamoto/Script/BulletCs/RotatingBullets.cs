@@ -59,5 +59,11 @@ public class RotatingBullets: MonoBehaviour
         yield return new WaitForSeconds(_nonActiveTime);
         gameObject.SetActive(false);
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out IDamage _damage))
+        {
+            _damage.AddDamage();
+        }
+    }
 }
