@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adb96935bd6176449394565d66c12dc, type: 3}
+  m_Name: TamuraAudioDataBase
+  m_EditorClassIdentifier: 
+  paramsList:
+  - {fileID: 11400000, guid: 0ca7c479d58e49341b851954e35c0b21, type: 2}
+  - {fileID: 11400000, guid: 9a7b35168591eb444866d5315b282362, type: 2}
+  - {fileID: 11400000, guid: b43a10303bcb18c488ac72faf6c4079f, type: 2}
