@@ -32,8 +32,10 @@ public class TamuraAsgoreWarning : MonoBehaviour
         while(gameObject.activeSelf)
         {
             color.color = _firstColor;
+            //AsgoreWarning@—¬‚·
             yield return new WaitForSeconds(_changeTime);
             color.color = _secondColor;
+            //AsgoreWarning@—¬‚·
             yield return new WaitForSeconds(_changeTime);
         }
 
@@ -44,6 +46,7 @@ public class TamuraAsgoreWarning : MonoBehaviour
         //’e‚ª“–‚½‚Á‚½‚ç©•ª‚ğÁ‚·
         if(collision.gameObject.CompareTag("Bullet"))
         {
+            //AsgoreBullet@—¬‚·
             gameObject.SetActive(false);
         }
 
