@@ -11,6 +11,11 @@ public class ObjectDestroy : MonoBehaviour
     int _t;
     int _c;
 
+    public AudioClip sec;
+    AudioSource audioSourceC;
+    public AudioClip seb;
+    AudioSource audioSourceB;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +25,9 @@ public class ObjectDestroy : MonoBehaviour
         _i = 0;
         _t = 0;
         _c = 0;
+
+        audioSourceC = GetComponent<AudioSource>();
+        audioSourceB = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -46,6 +54,7 @@ public class ObjectDestroy : MonoBehaviour
         {
             if (collision.gameObject.name == "Player")
             {
+                AudioSource.PlayClipAtPoint(seb, transform.position);
                 playerHitPoint._count = playerHitPoint._count + 1;
                 playerHitPoint._hcount = playerHitPoint._hcount + 1;
                 Destroy(this.gameObject);
@@ -59,6 +68,7 @@ public class ObjectDestroy : MonoBehaviour
         {
             if (collision.gameObject.name == "Player")
             {
+                AudioSource.PlayClipAtPoint(sec, transform.position);
                 playerHitPoint._fcount = playerHitPoint._fcount + 1;
                 playerHitPoint._hcount = playerHitPoint._hcount + 1;
                 Destroy(this.gameObject);
