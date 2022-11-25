@@ -14,7 +14,6 @@ public class GameStartTextManager : MonoBehaviour
     {
         //wave”‚ğó‚¯æ‚Á‚ÄAwave”‚Æ‘Î‰‚µ‚½–Ú•W‚ğ•\¦
         _wave = GameManager.GetStageNum;
-        Debug.Log(_wave);
         _waveText.text = $"WAVE{_wave.ToString()}";
         _purposeText.text = $"{_purpose[_wave - 1]}";
     }
