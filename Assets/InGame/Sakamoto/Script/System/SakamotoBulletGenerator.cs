@@ -6,7 +6,8 @@ public class SakamotoBulletGenerator : MonoBehaviour
 {
     SpawnData[] _spawnDataAll => _spawnData;
     [SerializeField] SpawnData[] _spawnData;
-
+    [Header("’e–‹‚ğ”­Ë‚µI‚í‚Á‚Ä‚©‚ç‚Ç‚Ì‚­‚ç‚¢‚ÌŠÔ‚ÅƒS[ƒ‹‚É‚·‚é‚©")]
+    [SerializeField] float _goalWait;
 
     float saveRote;
     private void Start()
@@ -28,6 +29,9 @@ public class SakamotoBulletGenerator : MonoBehaviour
                 yield return new WaitForSeconds(_spawnDataAll[i].GetCoolTime);
             }
         }
+
+        yield return new WaitForSeconds(_goalWait);
+        SceneManagerController.AllStageClearScene();
     }
 
     private void ChooseEffect() 
