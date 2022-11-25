@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4adb96935bd6176449394565d66c12dc, type: 3}
-  m_Name: AudioDataBase
+  m_Script: {fileID: 11500000, guid: 315d8ab008a64424dbc4367131e24241, type: 3}
+  m_Name: NakamuraSE
   m_EditorClassIdentifier: 
-  paramsList:
-  - {fileID: 11400000, guid: 3eb13e1c0888d894d9e3467972d39669, type: 2}
-  - {fileID: 11400000, guid: ec592a3d19bd67342ac3c7f7a204ff2c, type: 2}
+  Type: 2
+  SoundPrefab: {fileID: 7401559047419072767, guid: a7c2298806da83541b467f3cb8000f0d, type: 3}
+  MaxCount: 2

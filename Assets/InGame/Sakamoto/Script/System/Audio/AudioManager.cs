@@ -106,5 +106,6 @@ public enum SoundPlayType
 {
     Shot,
     Lose,
+    Fire,
 }
 
