@@ -32,8 +32,11 @@ public class RandomlyMovingBullets : MonoBehaviour
 
     private void OnDisable()
     {
-        StopCoroutine(_cor);
-        _speed = 2.5f;
+        if (_cor != null) 
+        {
+            StopCoroutine(_cor);
+            _speed = 2.5f;
+        }
     }
 
     private void FixedUpdate()
