@@ -19,7 +19,7 @@ public class TamuraAsgoreWarning : MonoBehaviour
 
     private void OnEnable()
     {
-        //StartCoroutine(ColorChange());
+        StartCoroutine(ColorChange());
     }
 
     /// <summary>色を交互に変える</summary>
@@ -29,23 +29,13 @@ public class TamuraAsgoreWarning : MonoBehaviour
         var color = gameObject.GetComponent<SpriteRenderer>();
 
         //自身がいる限りは色を変え続ける
-        while (gameObject.activeSelf)
+        while(gameObject.activeSelf)
         {
             color.color = _firstColor;
             //AsgoreWarning　流す
-            if (gameObject.name == "ExclamationMark")
-            {
-                AudioManager.Instance.PlaySound(SoundPlayType.AsgoreWarning);
-            }
-                
             yield return new WaitForSeconds(_changeTime);
             color.color = _secondColor;
             //AsgoreWarning　流す
-            if (gameObject.name == "ExclamationMark")
-            {
-                AudioManager.Instance.PlaySound(SoundPlayType.AsgoreWarning);
-            }
-                
             yield return new WaitForSeconds(_changeTime);
         }
 
@@ -54,14 +44,9 @@ public class TamuraAsgoreWarning : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //弾が当たったら自分を消す
-        if (collision.gameObject.CompareTag("Bullet"))
+        if(collision.gameObject.CompareTag("Bullet"))
         {
             //AsgoreBullet　流す
-            if (gameObject.name == "ExclamationMark")
-            {
-                AudioManager.Instance.PlaySound(SoundPlayType.AsgoreBullet);
-            }
-            
             gameObject.SetActive(false);
         }
 
