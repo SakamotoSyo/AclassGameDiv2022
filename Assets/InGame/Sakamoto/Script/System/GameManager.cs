@@ -55,4 +55,10 @@ public class GameManager
        SceneManagerController.StageLoadScene();
     }
 
+    public static void ResetParmeter() 
+    {
+        life = 2;
+        stageNum = 1;
+    }
+
 }

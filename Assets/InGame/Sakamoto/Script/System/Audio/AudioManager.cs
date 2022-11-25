@@ -28,8 +28,10 @@ public class AudioManager
     AudioManager()
     {
         string data = "Assets/InGame/Sakamoto/Data/AudioDataBase/AudioDataBase.asset";
-       // var path = AssetDatabase.GUIDToAssetPath(data);
+        // var path = AssetDatabase.GUIDToAssetPath(data);
+#if UNITY_EDITOR
         _params = AssetDatabase.LoadAssetAtPath<AudioDataBase>(data);
+#endif
         if (_params == null)
         {
             Debug.LogError("AudioDataBase‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ");
