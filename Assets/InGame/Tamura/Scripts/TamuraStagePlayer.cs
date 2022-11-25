@@ -7,6 +7,7 @@ public class TamuraStagePlayer : MonoBehaviour
 {
     [Tooltip("インプットを受け取る")] private PlayerInput _playerInput;
     [Tooltip("プレイヤーのリジットボディ")] private Rigidbody2D _playerRb;
+    [Tooltip("死んだ判定")] private bool _isDead = false;
 
     void Start()
     {
@@ -16,17 +17,27 @@ public class TamuraStagePlayer : MonoBehaviour
 
     void Update()
     {
-        _playerRb.velocity = _playerInput.MoveInput *10;
-    }
+        //_playerRb.velocity = _playerInput.MoveInput *10;
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-
-        if(collision.gameObject.name == "PlayerOutLine")
+        //動いてて死んでなかったら死ぬ
+        if((Input.GetAxisRaw($"Horizontal") != 0 || Input.GetAxisRaw($"Vertical") != 0) && !_isDead)
         {
+            _isDead = true;
             //ステージ失敗...
             GameManager.StageEnd(false);
         }
 
     }
+
+    /*private void OnTriggerExit2D(Collider2D collision)
+    {
+
+        if(collision.gameObject.name == "PlayerOutLine" && !_isDead)
+        {
+            _isDead = true;
+            //ステージ失敗...
+            GameManager.StageEnd(false);
+        }
+
+    }*/
 }
