@@ -17,6 +17,7 @@ public class SakamotoBulletCon: MonoBehaviour
     [Tooltip("—Í‚ğ‚©‚¯‚é•ûŒü‚ğ•Û‘¶‚µ‚Ä‚¨‚­‚½‚ß‚Ì•Ï”")]
     Vector2 dir;
     FalseCount _falseCount;
+    bool _isDamage;
     bool _isVisible;
 
     void Awake()
@@ -56,8 +57,9 @@ public class SakamotoBulletCon: MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out IDamage _damage))
+        if (collision.TryGetComponent(out IDamage _damage) && !_isDamage)
         {
+            _isDamage = true;
             _damage.AddDamage();
         }
         else if (collision.CompareTag("Wall") && !_isVisible)
