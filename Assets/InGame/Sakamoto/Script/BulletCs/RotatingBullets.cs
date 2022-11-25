@@ -29,7 +29,10 @@ public class RotatingBullets: MonoBehaviour
 
     private void OnDisable()
     {
-        StopCoroutine(_generaetCor);
+        if (_generaetCor != null) 
+        {
+            StopCoroutine(_generaetCor);
+        }
     }
 
     IEnumerator Generate()
