@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315d8ab008a64424dbc4367131e24241, type: 3}
   m_Name: AsgoreWarning
   m_EditorClassIdentifier: 
-  Type: 0
+  Type: 4
   SoundPrefab: {fileID: 9000535234788766914, guid: 233d71f781a1b5640aeed69c22648535, type: 3}
   MaxCount: 2
