@@ -10,6 +10,7 @@ public class LoadS : MonoBehaviour
 
     GameObject player;
     PlayerHitPoint playerHitPoint;
+    bool _isClear = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +22,10 @@ public class LoadS : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerHitPoint._gameClear)
+        if(playerHitPoint._gameClear && !_isClear)
         {
             Invoke("ChangeScene", 1.0f);
+            _isClear = true;
         }
     }
 
