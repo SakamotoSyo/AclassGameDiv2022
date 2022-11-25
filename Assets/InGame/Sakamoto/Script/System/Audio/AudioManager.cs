@@ -107,5 +107,8 @@ public enum SoundPlayType
     Shot,
     Lose,
     Fire,
+    AsgoreBullet,
+    AsgoreWarning,
+    Blaster,
 }
 
