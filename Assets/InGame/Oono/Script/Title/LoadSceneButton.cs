@@ -28,4 +28,9 @@ public class LoadSceneButton : MonoBehaviour
 
         Invoke("Ls", 1.0f);
     }
+
+    public void ResetPar()
+    {
+        GameManager.ResetParmeter();
+    }
 }
