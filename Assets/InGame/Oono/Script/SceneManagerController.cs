@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerController
 {
-
+    static bool isClear;
     //public static SceneManagerController instance;
 
     //private void Awake()
@@ -29,6 +29,11 @@ public class SceneManagerController
     {
         int Stage = GameManager.GetStageNum;
         AudioManager.Instance.Reset();
+        if (!GameManager.GetDifficulty && isClear) 
+        {
+            //難易度がeasyだったらここでライフリセット
+            GameManager.ResetParmeter();
+        }
         SceneManager.LoadScene($"Stage{Stage}");
         Debug.Log($"stage{Stage}をロードします");
     }
@@ -39,6 +44,7 @@ public class SceneManagerController
     public static void StasgeClear()
     {
         SceneManager.LoadScene("StageClearScene");
+        isClear = true;
     }
 
     /// <summary>
@@ -72,6 +78,7 @@ public class SceneManagerController
     public static void StageFailedScene()
     {
         SceneManager.LoadScene("StageFailedScene");
+        isClear = false;
     }
 
     /// <summary>

@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class BulletControlle : MonoBehaviour
 {
-    [SerializeField,Header("bulletの移動方向")] BulletDir _bulletDir;
+    [SerializeField, Header("bulletの移動方向")] BulletDir _bulletDir;
     [SerializeField, Header("bulletの速度")] int _bulletSpeed = 5;
     Rigidbody2D _rb2d;
     [SerializeField, Header("ベクトルの強さ")] VectorPower _vecPower;
@@ -35,9 +35,9 @@ public class BulletControlle : MonoBehaviour
     {
         _dirBool = new bool[] { _bulletDir.GetLeft, _bulletDir.GetRight, _bulletDir.GetUp, _bulletDir.GetDown };
         dir = Vector2.zero;
-        for (int i = 0; i < _dirBool.Length; i++) 
+        for (int i = 0; i < _dirBool.Length; i++)
         {
-            if (_dirBool[i]) 
+            if (_dirBool[i])
             {
                 dir += _dirPower[i];
             }
