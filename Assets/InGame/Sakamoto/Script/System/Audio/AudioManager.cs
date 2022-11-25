@@ -83,6 +83,11 @@ public class AudioManager
         return newObj;
     }
 
+    public void Reset() 
+    {
+        pool.Clear();
+    }
+
     /// <summary>
     /// 生成したオブジェクトをListに追加して保存する関数
     /// </summary>

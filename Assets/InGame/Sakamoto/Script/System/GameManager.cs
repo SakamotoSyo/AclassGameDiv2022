@@ -59,6 +59,7 @@ public class GameManager
     {
         life = 2;
         stageNum = 1;
+        AudioManager.Instance.Reset();
     }
 
 }
