@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/InGame/Tamura/Scenes/GameoverScene.unity
     guid: f25112f6312f1e146bc0d531cf024e07
+  - enabled: 1
+    path: Assets/InGame/Tamura/Scenes/AllStageClearScene.unity
+    guid: 41c0d618a4845ff4f955aaa6af745d59
   m_configObjects: {}

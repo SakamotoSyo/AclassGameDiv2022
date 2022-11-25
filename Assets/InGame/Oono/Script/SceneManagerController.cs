@@ -47,6 +47,7 @@ public class SceneManagerController
     public static void GameOver()
     {
         SceneManager.LoadScene("GameOverScene");
+        GameManager.ResetParmeter();
     }
 
     /// <summary>
@@ -63,7 +64,6 @@ public class SceneManagerController
     public static void StageStart()
     {
         SceneManager.LoadScene("StartScene");
-        GameManager.ResetParmeter();
     }
 
     /// <summary>
@@ -72,7 +72,6 @@ public class SceneManagerController
     public static void StageFailedScene()
     {
         SceneManager.LoadScene("StageFailedScene");
-        GameManager.ResetParmeter();
     }
 
     /// <summary>
