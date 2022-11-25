@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/InGame/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/InGame/Oono/Seane/TitleScene.unity
+    path: Assets/InGame/Oono/Scene/TitleScene.unity
     guid: e71051514da086e42953ee0cf6b01f7c
   - enabled: 1
     path: Assets/InGame/Tamura/Scenes/StartScene.unity
@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/InGame/Nakamura/Scene/Stage3.unity
     guid: 1579bad32ee4a184bbd668e39daecd3d
   - enabled: 1
-    path: Assets/InGame/Oono/Seane/Stage4.unity
+    path: Assets/InGame/Oono/Scene/Stage4.unity
     guid: 14374832f7ad5e143834581e5e43da5e
   - enabled: 1
     path: Assets/InGame/Sakamoto/Scene/Stage5.unity

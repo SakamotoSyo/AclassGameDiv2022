@@ -15,3 +15,6 @@ MonoBehaviour:
   paramsList:
   - {fileID: 11400000, guid: 3eb13e1c0888d894d9e3467972d39669, type: 2}
   - {fileID: 11400000, guid: ec592a3d19bd67342ac3c7f7a204ff2c, type: 2}
+  - {fileID: 11400000, guid: 0ca7c479d58e49341b851954e35c0b21, type: 2}
+  - {fileID: 11400000, guid: 9a7b35168591eb444866d5315b282362, type: 2}
+  - {fileID: 11400000, guid: b43a10303bcb18c488ac72faf6c4079f, type: 2}

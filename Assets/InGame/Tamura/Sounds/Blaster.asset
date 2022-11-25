@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315d8ab008a64424dbc4367131e24241, type: 3}
   m_Name: Blaster
   m_EditorClassIdentifier: 
-  Type: 0
+  Type: 5
   SoundPrefab: {fileID: 1351634482341390049, guid: c8042b30b3969514184cd731577ef410, type: 3}
   MaxCount: 5

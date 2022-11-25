@@ -19,6 +19,7 @@ public class TamuraGasterBlasterController : MonoBehaviour
         for(int i  = 0; i < _blasters.Length; i++)
         {
             //Blaster —¬‚·
+            AudioManager.Instance.PlaySound(SoundPlayType.Blaster);
             StartCoroutine(_blasters[i].Shot());
             yield return new WaitForSeconds(_blasterInterval);
         }

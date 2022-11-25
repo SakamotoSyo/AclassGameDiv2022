@@ -334,6 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _setStageClearTime: 30
+  _isAllClear: 0
 --- !u!114 &1061810864
 MonoBehaviour:
   m_ObjectHideFlags: 0
