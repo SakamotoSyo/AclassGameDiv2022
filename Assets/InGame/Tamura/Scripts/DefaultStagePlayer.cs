@@ -8,6 +8,7 @@ public class DefaultStagePlayer : MonoBehaviour
     [Tooltip("インプットを受け取る")] private PlayerInput _playerInput;
     [Tooltip("プレイヤーのリジットボディ")] private Rigidbody2D _playerRb;
     [SerializeField, Header("プレイヤーの速さ")] private float _speed = 5;
+    [Tooltip("すでに死んでるかどうか")] private bool _isDead = false;
 
     void Start()
     {
@@ -22,9 +23,10 @@ public class DefaultStagePlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Respawn")) 
+        if (!collision.CompareTag("Respawn") && !_isDead) 
         {
             //当たったらステージ失敗
+            _isDead = true;
             GameManager.StageEnd(false);
         }
     }
