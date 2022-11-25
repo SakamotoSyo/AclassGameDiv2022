@@ -6,7 +6,7 @@ public class GameStartTextManager : MonoBehaviour
 {
     [Tooltip("WAVE数")] private int _wave = 0;
     [Tooltip("ステージのクリア条件")] private string[] _purpose = 
-        { "じかんまで　いきのこれ！" , "うごくな！", "じかんまで　いきのこれ！", "ゴールを　みつけだせ！", "じかんまで　いきのこれ！"};
+        { "じかんまで　いきのこれ！" , "うごくな！", "じかんまで　いきのこれ！", "ゴールを　みつけだせ！", "じかんまで　いきのこれ！","","",""};
     [SerializeField, Header("WAVEを表示するテキスト")] private Text _waveText = default;
     [SerializeField, Header("クリア条件を表示するテキスト")] private Text _purposeText = default;
 
