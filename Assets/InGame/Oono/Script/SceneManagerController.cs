@@ -28,7 +28,7 @@ public class SceneManagerController
     public static void StageLoadScene()
     {
         int Stage = GameManager.GetStageNum;
-
+        AudioManager.Instance.Reset();
         SceneManager.LoadScene($"Stage{Stage}");
         Debug.Log($"stage{Stage}‚ğƒ[ƒh‚µ‚Ü‚·");
     }
