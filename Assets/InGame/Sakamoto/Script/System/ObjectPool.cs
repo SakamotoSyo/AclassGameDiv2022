@@ -54,16 +54,16 @@ public class ObjectPool : SingletonBehaviour<ObjectPool>
     /// <returns>生成したオブジェクト</returns>
     public GameObject UseObject(Vector2 position, PoolObjectType objectType)
     {
-        for (var i = 0; i < _pool.Count; i++)
+        foreach (var pool in _pool)
         {
             //オブジェクトが現在プールに入っている状態かつobjectのTypeが一致していたら
             //指定したPositionにObjectを移動させてSetActiveをTrueにする
             //Objectは役目を終えたらSetActiveをfalseにすることでつかいまわすことができる
-            if (_pool[i].Object.activeSelf == false && _pool[i].Type == objectType)
+            if (pool.Object.activeSelf == false && pool.Type == objectType)
             {
-                _pool[i].Object.transform.position = position;
-                _pool[i].Object.SetActive(true);
-                return _pool[i].Object;
+                pool.Object.transform.position = position;
+                pool.Object.SetActive(true);
+                return pool.Object;
             }
         }
 
