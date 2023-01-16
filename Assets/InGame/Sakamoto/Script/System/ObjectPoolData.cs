@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -9,7 +9,7 @@ public class ObjectPoolData : ScriptableObject
 
     public ObjectData[] Data => _data;
 
-    [Header("ƒIƒuƒWƒFƒNƒgƒf[ƒ^‚ğŠi”[‚·‚é”z—ñ")]
+    [Header("ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãƒ‡ãƒ¼ã‚¿ã‚’æ ¼ç´ã™ã‚‹é…åˆ—")]
     [SerializeField] private ObjectData[] _data;
 
     [Serializable]
@@ -20,16 +20,16 @@ public class ObjectPoolData : ScriptableObject
         public int MaxCount => _objectMaxCount;
 
 
-        [Header("ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O")]
+        [Header("ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®åå‰")]
         [SerializeField] string _name;
 
-        [Header("Object‚ÌType")]
+        [Header("Objectã®Type")]
         [SerializeField] PoolObjectType _poolType;
 
-        [Header("ƒIƒuƒWƒFƒNƒg‚ÌPrefab")]
+        [Header("ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®Prefab")]
         [SerializeField] GameObject _prefabObj;
 
-        [Header("ƒIƒuƒWƒFƒNƒg‚ğ‚¢‚­‚Â‚Ü‚Å¶¬‚·‚é‚©")]
+        [Header("ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ã„ãã¤ã¾ã§ç”Ÿæˆã™ã‚‹ã‹")]
         [SerializeField] int _objectMaxCount;
 
     }
